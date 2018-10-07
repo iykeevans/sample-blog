@@ -1,6 +1,7 @@
 import React from 'react'
+import Rainbow from '../components/HOC/Rainbow'
 
-export default () => {
+const About = () => {
   return (
     <div className="container">
 			<h4 className="center">About</h4>
@@ -8,3 +9,6 @@ export default () => {
     </div>
   )
 }
+
+
+export default Rainbow(About)
